@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 893f816b1f5e4e958376e01e7768024f, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  BulletPrefab: {fileID: 6570182380653768484, guid: 0de1902938700b749830d2d309b0b513, type: 3}
+  PlayerPrefab: {fileID: 1002676052841618427, guid: e4651f352a6d7fd48837a3c7b02db386, type: 3}
+  EnemyTankPrefab: {fileID: -1994799578057873002, guid: 7768aba7699770f4daed71d605b301d1, type: 3}
+  EnemySupportPrefab: {fileID: -2570677803507649593, guid: 73fc5ffc880b04649af9dd434343591b, type: 3}
+  EnemySprinterPrefab: {fileID: -1000619871209548819, guid: fc582e5f614cfde4fb00c68b06116dd2, type: 3}
+  AmountEnemyForWin: {x: 5, y: 10}
+  TimeBetweenEnemySpawn: {x: 2, y: 5}
+  EnemySpeedMovement: {x: 6, y: 10}
+  EnemyHealth: 10
+  EnemyDamage: 1
+  PlayerAttackRadius: 12
+  PlayerHealth: 5
+  PlayerAttackSpeed: 1.012
+  PlayerAttackDamage: 5
+  PlayerBulletSpeedMovement: 3.34
